@@ -13,7 +13,7 @@ nav{
     margin: 5px;
     font-size: 20px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     height: 30px;
 }
 
@@ -24,11 +24,26 @@ div{
 #my_name{
     display: flex;
     margin-left: 40px;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#contacts{
+    font-size: 20px;
+}
+
+#projects{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
 }
 #right_nav{
     display: flex;
     justify-content: space-evenly;
     width: 20%;
+    font-size: 20px;
 }
 #div1{
     display: flex;
@@ -74,6 +89,7 @@ div{
     width: 275px;
     text-align: center;padding: 5px;
     width: 50%;
+    height: 250px;
 }
 
 #landing_more{
@@ -83,7 +99,6 @@ div{
     align-content: space-evenly;
     justify-content: space-evenly;
     text-align: center;
-    gap: 30px;
     font-weight: normal;
 
 }
@@ -112,4 +127,31 @@ div{
     text-align: center;
     padding: 5px;
 
+}
+#me{
+    margin-top: 137px;
+    width: 50%;
+    height: 250px;
+}
+#me2{
+    margin-top: 137px;
+    width: 50%;
+    height: 250px;
+}
+
+#interests_button{
+    font-size: 20px;
+    background-color: rgb(159, 159, 159,.5);
+    width: 100%;
+}
+
+#education_button{
+    font-size: 20px;
+    background-color: rgb(159, 159, 159,.5);
+    width: 100%;
+}
+
+.school img{
+    width: 40px;
+    height: 40px;
 }
